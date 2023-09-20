@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title> TMT </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img id="logo"  src="13.png" alt="Картинка девочки" >
+            <nav id="nav">
+                <a href="#content">Сосылка 1</a>
+                <a href="/">Сосылка 2</a>
+                <a href="http://kubsu.ru">Сосылка 3</a>
+            </nav>
+            <div id="zag">TMT</div>
+        </header>
+        <div id="content">
+            <span> Список литературы </span>
+                <ol>
+                    <li><a href = "https://hololive.hololivepro.com/en/talents/tokoyami-towa/" title = "Hololivepro"> Hololive </a></li>
+                    <li><a href = "https://virtualyoutuber.fandom.com/wiki/Tokoyami_Towa" title = "VTuberWiki"> Fandom </a></li>
+                    <li><a href = "https://vk.com/towasama_majitenshi" title = "VK Group"> VK </a></li>
+                </ol>  
+            <table>
+                <tr class="tabh">
+                    <th>K1</th>
+                    <th>K2</th>
+                    <th>K3</th>
+                    <th>K4</th>
+                </tr>
+                <tr class="tab1">
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr class="tab2">
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr class="tab1">
+                    <td colspan="2">31 и 32</td>
+                    <td>33</td>
+                    <td>34</td>
+                </tr>
+                <tr class="tab2">
+                    <td colspan="4">41 и 42 и 43 и 44</td>
+                </tr>
+                <tr class="tab1">
+                    <td>51</td>
+                    <td>52</td>
+                    <td>53</td>
+                    <td>54</td>
+                </tr>
+                <tr class="tab2">
+                    <td>61</td>
+                    <td>62</td>
+                    <td>63</td>
+                    <td>64</td>
+                </tr>
+            </table>
+            <br>
+            <label>
+                ФИО<br>
+                <input name="student name" placeholder="Введите ФИО">
+            </label>
+            <br>
+            <label>
+                Телефон<br>
+                <input name="number" type="tel" placeholder="Введите номер телефона">
+            </label>
+            <br>
+            <label>
+                E-mail<br>
+                <input name="email" type="email" placeholder="Введите email">
+            </label>
+            <br>
+            <label>
+                Дата рождения<br>
+                <input name="field-date" value="2023-12-09" type="date">
+            </label>
+            <br>
+                Пол<br>
+                <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1"> Мужской</label>
+                <label><input type="radio" name="radio-group-1" value="Значение2"> Женский</label>
+            <br>
+            <label> Любимый язык программирования<br>
+                    <select name="field-mutliple-choice[]" multiple="multiple">
+                        <option value="Значение1">Pascal</option>
+                        <option value="Значение2">C</option>
+                        <option value="Значение3">C++</option>
+                        <option value="Значение4">JavaScript</option>
+                        <option value="Значение5">PHP</option>
+                        <option value="Значение6">Python</option>
+                        <option value="Значение7">Java</option>
+                        <option value="Значение8">Haskel</option>
+                        <option value="Значение9">Clojure</option>
+                        <option value="Значение10">Prolog</option>
+                        <option value="Значение11">Scala</option>
+                    </select>
+            </label>
+            <br>
+            <label> Биография<br>
+                <textarea name="field-name" placeholder="Здесь может быть ваша история"></textarea>
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="check-1"> С контрактом ознакомлен (а)
+            </label>
+            <br>
+            <input type="submit" value="Сохранить">
+        </div>
+        <footer>
+            <a id="ftext">Сделано мной</a>
+        </footer>
+    </body>
+</html>
