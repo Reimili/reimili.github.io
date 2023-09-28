@@ -2,6 +2,7 @@ body {
 	margin: 0 auto;
     background-color: rgb(234, 199, 255);
     font-style: italic;
+	font-size: large;
 }
 
 ul {
@@ -85,12 +86,12 @@ form {
 
 footer {
 	margin: 0 auto;
-	display: flex;
 	background-color: #9f50cc;
 	font-size: 20px;
 	align-items: center;
     color:rgb(66, 0, 121);
     font-size: 50px;
+	display: flex;
 }
 
 #content {
