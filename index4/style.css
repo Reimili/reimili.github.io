@@ -1,0 +1,115 @@
+body {
+	margin: 0 auto;
+    background-color: rgb(234, 199, 255);
+}
+
+ul {
+	list-style-type: none;
+}
+
+header {
+	margin: 0 auto;
+	display: flex;
+	background-color: #9f50cc;
+	align-items: center;
+}
+
+#logo {
+	float: left;
+}
+
+#zag {
+	margin: 0 auto;
+	align-items: center;
+    color:rgb(66, 0, 121);
+	display: flex;
+	justify-content: end;
+}
+
+footer {
+	margin: 0 auto;
+	background-color: #9f50cc;
+	align-items: center;
+    color:rgb(66, 0, 121);
+	display: flex;
+}
+
+header .block, footer .block{
+	background-color: #9f50cc;
+	margin: 0 auto;
+}
+
+.block {
+	background-color: #ce79ff;
+}
+
+#content {
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	margin-left: 0 auto;
+	vertical-align: top;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+    color:#9f50cc
+}
+nav a {
+	color: rgb(168, 235, 45);
+}
+
+table {
+	border-collapse: collapse;
+}
+
+#table {
+	order: -1;
+    text-align: center;
+}
+
+.tab1 {
+	background-color: rgb(234, 0, 255);
+}
+
+.tab2 {
+	background-color: rgb(200, 255, 0);
+}
+th, td {
+	border: 1px solid black;
+}
+
+form {
+}
+
+@media screen and (min-width: 639px){
+	
+	header .block {
+		display: flex;
+	}
+	
+	.block {
+	}
+
+	#zag {
+		justify-content: start;
+		margin: 0;
+	}
+	
+	#nav {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	nav {
+		flex-direction: row;
+		justify-content: end;
+		order: -1;
+	}
+	
+	ul {
+		order: -1;
+	}
+	
+}
