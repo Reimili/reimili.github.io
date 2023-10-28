@@ -38,7 +38,7 @@ function calculatePrice() {
     let amount = document.getElementById("amount").value;
     let price = getProductPrice(selectedProduct.value);
 
-    if (!Number.isNaN(amount)) {
+    if (!Number.isNaN(amount) && amount>-1) {
         let parsedAmount = parseFloat(amount);
         if (Number.isInteger(parsedAmount)) {
             let cost = price;
