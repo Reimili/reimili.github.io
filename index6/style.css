@@ -4,13 +4,16 @@ body {
 	font-size: large;
     padding-top: 20px;
 }
-form{
+.content{
     margin: 0 auto;
     align-self: center;
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 30%;
 }
 #button{
     max-width: 30%;
+}
+.invisible{
+    display:none
 }

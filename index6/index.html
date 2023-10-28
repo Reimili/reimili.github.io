@@ -2,28 +2,33 @@
 <html lang="ru">
     <head>
 		<meta charset="UTF-8">
-		<title>Calculator</title>
+		<title>Calculator2</title>
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
     <body>
-        <form>
-			<label>Выбор товара: 
-				<select id="product">
-					<option value="1" data-price="89">Шоколад</option>
-					<option value="2" data-price="32">Банан</option>
-					<option value="3" data-price="10">Карандаш</option>
-					<option value="4" data-price="0">Воздух</option>
-					<option value="5" data-price="37890">Nvidia RTX 3060</option>
-				</select>
-			</label><br>
-			<label>Количество: 
-				<input type="number" id="number">
-			</label><br>
-			<input type="submit" id="button" value="Рассчитать стоимость">
+        <div class="content">
+			<label>
+                <input type="radio" name="radio" checked="checked" value="Товар1" id = "prod1">Водичка
+            </label>
+            <label>
+                <input type="radio" name="radio" value="Товар2" id = "prod2">Monster
+            </label>
+			<label>
+                <input type="radio" name="radio" value="Товар3" id = "prod3">Капучино
+            </label>
+			<select id="selection" class = "invisible">
+                <option value="Опция1">Обычный</option>
+                <option value="Опция2">Нулевый</option>
+            </select>
+			<label id="option" class = "invisible">
+                <input type="checkbox" id="check"> Добавлять сироп?
+            </label>
+			<label>Количество: </label>
+				<input type="number" id="amount">
+			<button onclick="calculatePrice()">Рассчитать стоимость</button>
             <br>
-            <span>Итоговая стоимость: </span>
-			<span id="sum"></span>
-		</form>
+            <div id="result"></div>
+		</div>
         <script src="js.js"></script>
     </body>
 </html>
