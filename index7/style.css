@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ddb4f8;
+  }
+
+  img{
+    border-radius: 20%;
+  }
+
+  .gallery{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  
+  .slick-dots li button:before
+  {
+    font-size: 15px;
+    color:#caf825 !important;
+  }
+
+  li.slick-active > button::before
+  {
+    font-size: 20px;
+  }
+
+  .slick-dots
+  {
+    bottom: -60px;
+  }
+  
+  .slick-slide img{
+    margin: auto;
+  }
+
+  .slick-prev:before,
+  .slick-next:before{
+    font-size: 32px;
+    color: #ee706c ;
+  }
